@@ -1,0 +1,45 @@
+.
+├── bin
+│   └── Debug
+│       └── net8.0
+│           ├── AngleSharp.dll
+│           ├── YoutubeDownloaderApp
+│           ├── YoutubeDownloaderApp.deps.json
+│           ├── YoutubeDownloaderApp.dll
+│           ├── YoutubeDownloaderApp.pdb
+│           ├── YoutubeDownloaderApp.runtimeconfig.json
+│           └── YoutubeExplode.dll
+├── DeleteTemp.cs
+├── Downloader.cs
+├── FfmpegMerger.cs
+├── obj
+│   ├── Debug
+│   │   └── net8.0
+│   │       ├── apphost
+│   │       ├── ref
+│   │       │   └── YoutubeDownloaderApp.dll
+│   │       ├── refint
+│   │       │   └── YoutubeDownloaderApp.dll
+│   │       ├── YoutubeDownloaderApp.AssemblyInfo.cs
+│   │       ├── YoutubeDownloaderApp.AssemblyInfoInputs.cache
+│   │       ├── YoutubeDownloaderApp.assets.cache
+│   │       ├── YoutubeDownloaderApp.csproj.AssemblyReference.cache
+│   │       ├── YoutubeDownloaderApp.csproj.CopyComplete
+│   │       ├── YoutubeDownloaderApp.csproj.CoreCompileInputs.cache
+│   │       ├── YoutubeDownloaderApp.csproj.FileListAbsolute.txt
+│   │       ├── YoutubeDownloaderApp.dll
+│   │       ├── YoutubeDownloaderApp.GeneratedMSBuildEditorConfig.editorconfig
+│   │       ├── YoutubeDownloaderApp.genruntimeconfig.cache
+│   │       ├── YoutubeDownloaderApp.GlobalUsings.g.cs
+│   │       └── YoutubeDownloaderApp.pdb
+│   ├── project.assets.json
+│   ├── project.nuget.cache
+│   ├── YoutubeDownloaderApp.csproj.nuget.dgspec.json
+│   ├── YoutubeDownloaderApp.csproj.nuget.g.props
+│   └── YoutubeDownloaderApp.csproj.nuget.g.targets
+├── Program.cs
+├── YoutubeDownloaderApp.csproj
+├── YoutubeDownloaderApp.sln
+└── YoutubeHandler.cs
+
+9 directories, 34 files

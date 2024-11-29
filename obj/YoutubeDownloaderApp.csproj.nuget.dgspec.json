@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/v-okur/Coding/C#/YoutubeDownloaderApp/YoutubeDownloaderApp.csproj": {}
+  },
+  "projects": {
+    "/home/v-okur/Coding/C#/VideoDownloader/VideoDownloader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/v-okur/Coding/C#/VideoDownloader/VideoDownloader.csproj",
+        "projectName": "VideoDownloader",
+        "projectPath": "/home/v-okur/Coding/C#/VideoDownloader/VideoDownloader.csproj",
+        "packagesPath": "/home/v-okur/.nuget/packages/",
+        "outputPath": "/home/v-okur/Coding/C#/VideoDownloader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/v-okur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/v-okur/.nuget/NuGet/Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Kalamar": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/v-okur/Coding/C#/YoutubeDownloaderApp/YoutubeDownloaderApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/v-okur/Coding/C#/YoutubeDownloaderApp/YoutubeDownloaderApp.csproj",
+        "projectName": "YoutubeDownloaderApp",
+        "projectPath": "/home/v-okur/Coding/C#/YoutubeDownloaderApp/YoutubeDownloaderApp.csproj",
+        "packagesPath": "/home/v-okur/.nuget/packages/",
+        "outputPath": "/home/v-okur/Coding/C#/YoutubeDownloaderApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/v-okur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/v-okur/.nuget/NuGet/Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/v-okur/Coding/C#/VideoDownloader/VideoDownloader.csproj": {
+                "projectPath": "/home/v-okur/Coding/C#/VideoDownloader/VideoDownloader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

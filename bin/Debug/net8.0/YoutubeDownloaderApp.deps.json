@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "YoutubeDownloaderApp/1.0.0": {
+        "dependencies": {
+          "VideoDownloader": "1.0.0",
+          "YoutubeExplode": "6.4.4"
+        },
+        "runtime": {
+          "YoutubeDownloaderApp.dll": {}
+        }
+      },
+      "AngleSharp/1.1.2": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AngleSharp.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Kalamar/1.0.0": {
+        "runtime": {
+          "lib/net6.0/VideoDownloader.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/8.0.0": {},
+      "YoutubeExplode/6.4.4": {
+        "dependencies": {
+          "AngleSharp": "1.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/YoutubeExplode.dll": {
+            "assemblyVersion": "6.4.4.0",
+            "fileVersion": "6.4.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YoutubeDownloaderApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aRFpAqixbuj1Vmqy2hsWPF0PJygo1SfjvmpBvVWZv6i+/u+C/L4wDdwFIzyCGUbjqr61NsZdPNPqDE8wlmG2qA==",
+      "path": "anglesharp/1.1.2",
+      "hashPath": "anglesharp.1.1.2.nupkg.sha512"
+    },
+    "Kalamar/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NC64StZg0MXESD4Qzp4uPoqtXlC09ucidrjGW2XkLfh6a2tTAqxRxoNqyG/JfW3AuGkM+c1/laT7Kw3RsP2ZsQ==",
+      "path": "kalamar/1.0.0",
+      "hashPath": "kalamar.1.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OZIsVplFGaVY90G2SbpgU7EnCoOO5pw1t4ic21dBF3/1omrJFpAGoNAVpPyMVOC90/hvgkGG3VFqR13YgZMQfg==",
+      "path": "system.text.encoding.codepages/8.0.0",
+      "hashPath": "system.text.encoding.codepages.8.0.0.nupkg.sha512"
+    },
+    "YoutubeExplode/6.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LetqUAvPfDwP6VMQ0ZKk9BcxAk14q2f7Xm1fObKDUAfD2AglmNBCjG81aaPl5egQwV4PXwP3RoCi07Ebt7vRCA==",
+      "path": "youtubeexplode/6.4.4",
+      "hashPath": "youtubeexplode.6.4.4.nupkg.sha512"
+    }
+  }
+}
